@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Tours]
+(
+	[TourName] NVARCHAR(100) NOT NULL,
+	[Description] NVARCHAR(256) NOT NULL,
+	CONSTRAINT PK_TOURS PRIMARY KEY (TourName)
+
+)
