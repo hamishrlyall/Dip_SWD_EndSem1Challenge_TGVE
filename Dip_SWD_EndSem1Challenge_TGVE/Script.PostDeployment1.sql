@@ -31,16 +31,16 @@ INSERT INTO TourEvents (TourName, EventMonth, EventDay, EventYear, Fee) VALUES
 ('West', 'Jan', 29, 2016, 225);
 
 INSERT INTO Bookings (ClientID, TourName, EventMonth, EventDay, EventYear, Payment, DateBooked) VALUES
-(1, 'North', 'Jan', 9, 2016, 200, Convert(Date, '10/12/2015', 103)),
-(2, 'North', 'Jan', 9, 2016, 200, Convert(Date, '16/12/2015', 103)),
-(1, 'North', 'Feb', 13, 2016, 225, Convert(Date, '8/01/2016', 103)),
-(2, 'North', 'Feb', 13, 2016, 225, Convert(Date, '14/01/2016', 103)),
-(3, 'North', 'Feb', 13, 2016, 225, Convert(Date, '3/02/2016', 103)),
-(1, 'South', 'Jan', 16, 2016, 200, Convert(Date, '10/12/2015', 103)),
-(2, 'South', 'Jan', 16, 2016, 200, Convert(Date, '18/12/2015', 103)),
-(3, 'South', 'Jan', 16, 2016, 200, Convert(Date, '9/01/2016', 103)),
-(2, 'West', 'Jan', 29, 2016, 200, Convert(Date, '17/12,2015', 103)),
-(3, 'West', 'Jan', 29, 2016, 200, Convert(Date, '18/12/2015', 103));
+(1, 'North', 'Jan', 9, 2016, 200, '2015/12/10'),
+(2, 'North', 'Jan', 9, 2016, 200, '2015/12/16'),
+(1, 'North', 'Feb', 13, 2016, 225, '2016/01/08'),
+(2, 'North', 'Feb', 13, 2016, 225, '2016/01/14'),
+(3, 'North', 'Feb', 13, 2016, 225, '2016/02/03'),
+(1, 'South', 'Jan', 16, 2016, 200, '2015/12/10'),
+(2, 'South', 'Jan', 16, 2016, 200, '2015/12/18'),
+(3, 'South', 'Jan', 16, 2016, 200, '2016/01/09'),
+(2, 'West', 'Jan', 29, 2016, 200, '2015/12/17'),
+(3, 'West', 'Jan', 29, 2016, 200, '2015/12/18');
 
 
 END;

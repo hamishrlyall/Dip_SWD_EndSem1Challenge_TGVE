@@ -1,0 +1,6 @@
+@using Dip_SWD_EndSem1Challenge_TGVE_WebAPI.Areas.HelpPage.ModelDescriptions
+@model CollectionModelDescription
+@if (Model.ElementDescription is ComplexTypeModelDescription)
+{
+    @Html.DisplayFor(m => m.ElementDescription)
+}

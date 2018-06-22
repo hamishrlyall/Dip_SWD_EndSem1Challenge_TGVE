@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cdf58fbe70c546b0b0dadc2e834e8003" Name="Diagram1">
+        <EntityTypeShape EntityType="Dip_SWD_EndSem1Challenge_TGVEModel.Booking" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Dip_SWD_EndSem1Challenge_TGVEModel.Client" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Dip_SWD_EndSem1Challenge_TGVEModel.TourEvent" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Dip_SWD_EndSem1Challenge_TGVEModel.Tour" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Dip_SWD_EndSem1Challenge_TGVEModel.database_firewall_rules" Width="1.5" PointX="5.75" PointY="1.5" IsExpanded="true" />
+        <AssociationConnector Association="Dip_SWD_EndSem1Challenge_TGVEModel.FK_CLIENTS" ManuallyRouted="false" />
+        <AssociationConnector Association="Dip_SWD_EndSem1Challenge_TGVEModel.FK_TOURS" ManuallyRouted="false" />
+        <AssociationConnector Association="Dip_SWD_EndSem1Challenge_TGVEModel.FK_TourName" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
